@@ -1,42 +1,127 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Estilos de la Navbar */
+
+.container_navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: yellowgreen;
+  padding-right: 1rem;
+}
+
+.container_navbar--logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container_navbar--logo p{
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+.container_navbar--logo img{
+  width: 3rem;
+  height: 3rem;
+  padding: 1rem;
+}
+
+.container_navbar--links{ 
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.container_navbar--links button{
+  display: none;
+}
+
+.container_navbar--links ul {
+  display: flex;
+}
+
+.container_navbar--links ul li{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  list-style: none;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-link:hover{
+  color: white;
+  background-color: green;
+  padding: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .container_navbar--links button{
+    display: block;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+
+  .container_navbar--links ul  {
+    display: none; 
+    cursor: pointer;
+    flex-direction: column;
+    position: absolute;
+    top: 4.6rem; 
+    right: 0;
+    width: 25vh;
+    padding: 1rem;
+    text-align: center;
+    background-color: yellowgreen;
+    margin-right: 0.5rem;
+  }
+
+  .nav-list.show {
+    display: flex;
+  }
+
+  .nav-list li {
+    margin: 1rem 0;
+  }
+
+}
+
+/* Footer */
+.container_footer{
+  background: yellowgreen;
+  padding-top: 2rem;
+  margin-top: 1rem;
+}
+
+.container_footer  p {
   text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container_footer p a {
+  color: whitesmoke;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container_footer--redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.container_footer--redes svg{
+  padding: 0.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
