@@ -31,7 +31,12 @@ const Formulario = () => {
     };
 
     return (
-        <form onSubmit={manejarEnvio}>
+        <div className="container_formulario">
+            <form onSubmit={manejarEnvio}>
+            <div>
+                <h2>Consultas</h2>
+            <p>{errorMensaje}</p>
+            </div>
             <div>
                 <label htmlFor="nombre">Nombre: </label>
                 <input id="nombre" type="text" onChange={(evento) => setNombre(evento.target.value)} value={nombre} autoComplete="off" name="nombre" placeholder="Escriba su nombre..." />
@@ -48,11 +53,13 @@ const Formulario = () => {
                 <label htmlFor="edad">Edad: </label>
                 <input id="edad" type="number" onChange={(evento) => setEdad(evento.target.value)} value={edad} autoComplete="off" name="edad" />
             </div>
-            <p>{errorMensaje}</p>
+            <div className="button ">
             <button type="submit" disabled={!!errorMensaje}>
                 Enviar
             </button>
+            </div>         
         </form>
+        </div>
     );
 };
 
