@@ -1,4 +1,4 @@
-
+import React, { useState } from "react";
 // Función creación de componente Formulario
 
 const Formulario = () => {

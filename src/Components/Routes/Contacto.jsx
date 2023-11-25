@@ -1,3 +1,4 @@
+import React from 'react';
 import Formulario from '../Formulario';
 import '../../assets/css/contact.css';
 
