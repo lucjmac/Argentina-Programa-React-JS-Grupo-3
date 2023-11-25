@@ -1,22 +1,18 @@
 import React, { useState } from "react";
-// Función creación de componente Formulario
+import "../assets/css/contact.css";
 
 const Formulario = () => {
-    // Uso del useState para los valores de los inputs
     const [nombre, setNombre] = useState("");
     const [apellido, setApellido] = useState("");
     const [email, setEmail] = useState("");
     const [edad, setEdad] = useState("");
     const [errorEnviar, setErrorEnviar] = useState(false);
 
-    // Mensaje de error en caso de no completar los datos
     const errorMensaje = validacionDatos(nombre, apellido, email, edad);
 
-    // Función para manejar el envio del formulario
     const manejarEnvio = (evento) => {
         evento.preventDefault();
         if (!errorMensaje) {
-            //Si el formulario esta completo surge se habilita el boton enviar y surge un alert, reset del form
             alert("Formulario Enviado");
             setNombre("");
             setApellido("");
@@ -24,14 +20,13 @@ const Formulario = () => {
             setEdad("");
             setErrorEnviar(false);
         } else {
-            //Sino se desabilita el boton enviar
             setErrorEnviar(true);
         }
     };
 
     return (
         <form onSubmit={manejarEnvio}>
-            <div>
+            <div className="label-input-container">
                 <label htmlFor="nombre">Nombre: </label>
                 <input
                     id="nombre"
@@ -43,7 +38,7 @@ const Formulario = () => {
                     placeholder="Escriba su nombre..."
                 />
             </div>
-            <div>
+            <div className="label-input-container">
                 <label htmlFor="apellido">Apellido: </label>
                 <input
                     id="apellido"
@@ -55,7 +50,7 @@ const Formulario = () => {
                     placeholder="Escriba su apellido..."
                 />
             </div>
-            <div>
+            <div className="label-input-container">
                 <label htmlFor="email">Email: </label>
                 <input
                     id="email"
@@ -67,7 +62,7 @@ const Formulario = () => {
                     placeholder="Escriba su email..."
                 />
             </div>
-            <div>
+            <div className="label-input-container">
                 <label htmlFor="edad">Edad: </label>
                 <input
                     id="edad"
