@@ -117,7 +117,8 @@ h1 {
     cursor: pointer;
     flex-direction: column;
     position: absolute;
-    top: 4.6rem; 
+    z-index: 1;
+    top: 13vh; 
     right: 0;
     width: 25vh;
     padding: 1rem;

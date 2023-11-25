@@ -4,8 +4,8 @@ import './App.css'
 //Importación para el Router Dom
 import { Navigate, Route, Routes } from 'react-router-dom'
 //Importación de componentes
-import Navbar from './Components/Navbar'
-import Footer from './Components/Footer'
+import Navbar from './Components/Global/Navbar'
+import Footer from './Components/Global/Footer'
 import Home from './Components/Routes/Home'
 import Nosotros from './Components/Routes/Nosotros'
 import Contacto from './Components/Routes/Contacto'
