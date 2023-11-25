@@ -1,17 +1,12 @@
-import '../../assets/css/home.css';
-import cactus from '../../assets/img/imagen-header.jpg'
+import "../../assets/css/home.css";
 
 const Home = () => {
     return (
         <>
             <div className="hero">
-                <img
-                    src= {cactus}
-                    alt="Imagen de la empresa de arquitectura"
-                    className="hero-image"
-                />
-                <button className="hero-button">Quienes somos</button>
-                <p className="hero-text">Relato de quienes somos... o algo asi</p>
+                <a className="hero-link" href="./Nosotros.jsx">
+                    CONOCENOS
+                </a>
             </div>
 
             <div className="image-section">

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Error404 = () => {
     return (
         <>
@@ -7,6 +5,6 @@ const Error404 = () => {
             <h2>Page not found.</h2>
         </>
     )
-}
+};
 
 export default Error404
