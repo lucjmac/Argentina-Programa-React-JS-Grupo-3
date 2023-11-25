@@ -4,7 +4,7 @@ import { useState } from "react";
 import { NavLink } from 'react-router-dom'
 
 //Importaciones de imagenes para la Navbar
-import logo from "../assets/img/barra-navegación.png" //Ejemplo 
+import logo from "../assets/img/logo-agencia.png" //Ejemplo 
 import Menu from "../assets/img/menu-hamburguesa.png" // Ejemplo para el menu hamburguesa
 
 const Navbar = () => {
@@ -17,8 +17,7 @@ const Navbar = () => {
     return (
       <div className="container_navbar">
         <div className="container_navbar--logo">
-            <img src={ logo } alt="Logo" />
-            <p>NavBar</p>
+            <img src={ logo } alt="Logo" /> 
         </div>
         <div className={`container_navbar--links ${menu ? 'open' : ''}`}>
             <button onClick={toggleMenu} ><img src={ Menu } alt="menu" /></button>
