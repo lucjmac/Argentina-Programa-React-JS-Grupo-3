@@ -57,7 +57,7 @@ input#edad {
 
 button {
     font-size: 1.8rem;
-    color: black;
+    color: white;
     padding: 0.8rem 2rem;
     background-color: #f2b249;
     border-radius: 0.5rem;
@@ -74,5 +74,5 @@ button {
 }
 
 button:hover {
-    background-color: red;
+    background-color: #103833;
 }

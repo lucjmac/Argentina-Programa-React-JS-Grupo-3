@@ -60,6 +60,6 @@
     font-family: var(--base-font);
     font-size: 2rem;
     text-align: justify;
-
+    color: white;
     padding: 1rem;
 }
