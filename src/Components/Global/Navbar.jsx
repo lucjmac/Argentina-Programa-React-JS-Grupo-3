@@ -17,7 +17,9 @@ const Navbar = () => {
     return (
         <div className="container_navbar">
             <div className="container_navbar--logo">
-                <img src={logo} alt="Logo" />
+            <NavLink to="/">
+                <img src={logo} alt="Logo"/>
+                </NavLink>{" "}
             </div>
             <div className={`container_navbar--links ${menu ? "open" : ""}`}>
                 <button onClick={toggleMenu}>

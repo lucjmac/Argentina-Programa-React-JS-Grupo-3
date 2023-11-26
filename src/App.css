@@ -67,7 +67,7 @@ h1 {
 }
 
 .container_navbar--logo img {
-    width: 10rem;
+    width: 15rem;
 }
 
 .container_navbar--links {
@@ -141,6 +141,9 @@ h1 {
 
 /* Footer */
 .container_footer {
+    position:absolute;
+    max-width: 120rem;
+    width: 100%;
     display: block;
     background: #103833;
     height: 15rem;
@@ -160,4 +163,12 @@ h1 {
 
 .container_footer--redes svg {
     height: 5rem;
+}
+
+.svgImg{
+    width: 4rem;
+    padding-left: 1rem;
+}
+.copyright{
+    margin-top: 1rem;
 }
