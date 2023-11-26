@@ -1,11 +1,23 @@
-import React from 'react'
+import React from "react";
+import "../../assets/css/home.css";
+import Card from "../Content/Card";
+
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
+
     return (
         <>
-            <h1>Inicio</h1>
+            <div className="hero">
+                <a className="hero-link">
+                <NavLink to="/nosotros">
+                            CONOCENOS
+                </NavLink>
+                </a>
+            </div>
+            <Card/>
         </>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;

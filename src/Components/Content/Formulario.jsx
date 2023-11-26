@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 // Función creación de componente Formulario
 
 const Formulario = () => {
@@ -39,19 +38,50 @@ const Formulario = () => {
             </div>
             <div>
                 <label htmlFor="nombre">Nombre: </label>
-                <input id="nombre" type="text" onChange={(evento) => setNombre(evento.target.value)} value={nombre} autoComplete="off" name="nombre" placeholder="Escriba su nombre..." />
+                <input
+                    id="nombre"
+                    type="text"
+                    onChange={(evento) => setNombre(evento.target.value)}
+                    value={nombre}
+                    autoComplete="off"
+                    name="nombre"
+                    placeholder="Escriba su nombre..."
+                />
             </div>
             <div>
                 <label htmlFor="apellido">Apellido: </label>
-                <input id="apellido" type="text" onChange={(evento) => setApellido(evento.target.value)} value={apellido} autoComplete="off" name="apellido" placeholder="Escriba su apellido..." />
+                <input
+                    id="apellido"
+                    type="text"
+                    onChange={(evento) => setApellido(evento.target.value)}
+                    value={apellido}
+                    autoComplete="off"
+                    name="apellido"
+                    placeholder="Escriba su apellido..."
+                />
             </div>
             <div>
                 <label htmlFor="email">Email: </label>
-                <input id="email" type="text" onChange={(evento) => setEmail(evento.target.value)} value={email} autoComplete="off" name="email" placeholder="Escriba su email..." />
+                <input
+                    id="email"
+                    type="text"
+                    onChange={(evento) => setEmail(evento.target.value)}
+                    value={email}
+                    autoComplete="off"
+                    name="email"
+                    placeholder="Escriba su email..."
+                />
             </div>
             <div>
                 <label htmlFor="edad">Edad: </label>
-                <input id="edad" type="number" onChange={(evento) => setEdad(evento.target.value)} value={edad} autoComplete="off" name="edad" />
+                <input
+                    id="edad"
+                    type="number"
+                    onChange={(evento) => setEdad(evento.target.value)}
+                    value={edad}
+                    autoComplete="off"
+                    name="edad"
+                />
             </div>
             <div className="button ">
             <button type="submit" disabled={!!errorMensaje}>

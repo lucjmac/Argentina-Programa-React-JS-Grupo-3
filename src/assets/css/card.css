@@ -1,0 +1,8 @@
+.image-section{
+    display: flex;
+    justify-content: space-between;
+}
+.image-container img{
+    width: 20%;
+    padding: 1rem;
+}
