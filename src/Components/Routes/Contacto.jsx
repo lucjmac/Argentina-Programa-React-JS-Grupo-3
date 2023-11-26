@@ -2,6 +2,7 @@ import React from 'react';
 import Formulario from '../Content/Formulario';
 import '../../assets/css/contact.css';
 
+
 const Contacto = () => {
     return (
         <>
