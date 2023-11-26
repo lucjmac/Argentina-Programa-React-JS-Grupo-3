@@ -1,5 +1,5 @@
 import '../../assets/css/card.css'
-import { contenido } from './Objetos'
+import { contenido } from '../../assets/javascript/contenidoCards'
 
 const Card = () => {
 
@@ -17,7 +17,7 @@ const Card = () => {
                             <img
                                 src={contenido.imagen}
                                 alt="Imagen 1"
-                                className=" image"
+                                className="image"
                             />
                         </div>
                         <div className="col-md-9">

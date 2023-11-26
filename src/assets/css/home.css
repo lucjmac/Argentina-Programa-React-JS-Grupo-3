@@ -23,16 +23,21 @@
     -moz-border-radius: 0.5rem;
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
+    margin: 7rem;
 }
 
-.image-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 2.5rem; 
-    padding-bottom: 2.5rem; 
+.hero p{
+    margin-left: 1rem;
+    font-family: var(--base-font);
+    font-size: 2rem;
+    text-align: justify;
+    color: white;
+    padding: 8rem;
+    background: rgba(146, 145, 145, 0.534);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    margin-right: 3rem;
+    font-style: italic;
 }
 
 .image-container {

@@ -1,0 +1,64 @@
+.container_productos{
+    margin: 1rem;
+}
+
+.container_productos--detalle{
+    display: block;
+}
+
+.container_productos--detalle span{
+    font-weight: 600;
+}
+
+.ocultar{
+    display: none;
+}
+
+.card-servicios{
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 1px whitesmoke;
+    border-bottom: solid 1px whitesmoke;
+    margin-bottom: 3rem;
+    background-color: #32606D;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.card-content{
+    border: solid 1px whitesmoke;
+    border-radius: 16px;
+    padding: 3rem;
+    margin: 3rem;
+    background: rgba(219, 213, 213, 0.308);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+}
+
+.card-content h2{
+    font-family: var(--base-font);
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    margin: 1rem;
+}
+
+.card-content p{
+    font-family: var(--base-font);
+    font-size: 1.7rem;
+    text-align: center;
+    color: white;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.card-content p span p{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.card-servicios button{
+    text-align: center;
+    margin-left: 3.5rem;
+    margin-top: 3rem;
+}

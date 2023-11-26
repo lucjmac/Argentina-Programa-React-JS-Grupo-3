@@ -1,0 +1,32 @@
+.container_nosotros {
+    display: flex;
+    align-items: center;
+    background-color: #70A989;
+    margin: 3rem;
+    border-radius: 15px;
+    padding: 2rem;
+    padding-top: 3rem;
+}
+
+.container_nosotros h2{
+    text-align: center;
+    font-family: var(--base-font);
+    font-size: 3rem;
+    color: white;
+}
+
+.container_nosotros p {
+    margin-left: 1rem;
+    font-family: var(--base-font);
+    font-size: 2rem;
+    text-align: justify;
+    color: white;
+    padding: 8rem;
+}
+
+.image-nosotros{
+    width: 50vh;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    border-radius: 25px;
+}

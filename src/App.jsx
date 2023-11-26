@@ -8,6 +8,7 @@ import Navbar from './Components/Global/Navbar'
 import Footer from './Components/Global/Footer'
 import Home from './Components/Routes/Home'
 import Nosotros from './Components/Routes/Nosotros'
+import Servicios from './Components/Routes/Servicios'
 import Contacto from './Components/Routes/Contacto'
 import Error404 from './Components/Routes/Error404'
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/' element={ <Home/> }></Route>
         <Route path='/nosotros' element={ <Nosotros/> }></Route>
         <Route path='/contacto' element={<Contacto/>}></Route>
+        <Route path='/servicios' element={ <Servicios/>}></Route>
         <Route path='/error404' element={ <Error404/>}></Route>
         <Route path='/*' element={ <Navigate to='/error404' /> }></Route>
       </Routes>
