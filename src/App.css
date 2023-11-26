@@ -14,9 +14,6 @@
     box-sizing: border-box;
 }
 
-h1{
-  text-align: center;
-}
 html {
     font-family: var(--base-font);
     font-size: 62.5%;
@@ -163,46 +160,4 @@ h1 {
 
 .container_footer--redes svg {
     height: 5rem;
-}
-
-/* Formulario */
-
-.container_formulario{
-  display: flex;
-}
-
-form {
-  margin: auto;
-  border: solid 1px black;
-  padding: 1rem;
-  width: 20vh;
-}
-
-form h2 {
-  text-align: center;
-}
-
-form p {
-  text-align: center;
-}
-
-form label{
-  font-weight: 600;
-  margin: 1rem 0;
-}
-
-form input {
-  margin: 1rem 0;
-  
-  
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-form button{
-  padding: 1rem; 
 }
