@@ -44,22 +44,8 @@
     padding: 1rem;
 }
 
-.first-image-container {
-    flex-direction: row-reverse;
-}
 
-.image {
-    width: 66.66%;
-    height: auto;
-    padding: 2rem;
-}
 
-.image-description {
-    width: 33.33%;
-    margin-left: 1rem;
-    font-family: var(--base-font);
-    font-size: 2rem;
-    text-align: justify;
-    color: white;
-    padding: 1rem;
-}
+
+
+

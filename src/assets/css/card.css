@@ -1,8 +1,25 @@
-.image-section{
-    display: flex;
-    justify-content: space-between;
+.image-description {
+    margin-left: 1rem;
+    font-family: var(--base-font);
+    font-size: 2rem;
+    text-align: justify;
+    color: white;
+    padding: 6rem;
+    background-color: #f3c068;
 }
-.image-container img{
-    width: 20%;
+
+.image-description h2 {
+    text-align: center;
     padding: 1rem;
+    font-style: italic;
+}
+
+.first-image-container {
+    flex-direction: row-reverse;
+}
+
+.image {
+    width: 500px;
+    height: 400px;
+    padding: 2rem;
 }
