@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../../assets/css/contact.css';
+import "../../assets/css/contact.css";
 
 const Formulario = () => {
     const [nombre, setNombre] = useState("");
@@ -74,10 +74,10 @@ const Formulario = () => {
                 />
             </div>
             <div className="button ">
-            <button type="submit" disabled={!!errorMensaje}>
-                Enviar
-            </button>
-            </div>         
+                <button type="submit" disabled={!!errorMensaje}>
+                    Enviar
+                </button>
+            </div>
         </form>
     );
 };

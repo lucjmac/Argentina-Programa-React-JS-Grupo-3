@@ -1,14 +1,14 @@
 .container_nosotros {
     display: flex;
     align-items: center;
-    background-color: #70A989;
+    background-color: #70a989;
     margin: 3rem;
     border-radius: 15px;
     padding: 2rem;
     padding-top: 3rem;
 }
 
-.container_nosotros h2{
+.container_nosotros h2 {
     text-align: center;
     font-family: var(--base-font);
     font-size: 3rem;
@@ -24,9 +24,33 @@
     padding: 8rem;
 }
 
-.image-nosotros{
+.image-nosotros {
     width: 50vh;
     margin-right: 3rem;
     margin-left: 3rem;
     border-radius: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .container_nosotros {
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+
+    .container_nosotros h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .container_nosotros p {
+        padding: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .image-nosotros {
+        width: 100%;
+        margin: 1rem 0;
+    }
 }

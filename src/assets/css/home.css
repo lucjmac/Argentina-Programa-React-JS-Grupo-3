@@ -26,7 +26,7 @@
     margin: 7rem;
 }
 
-.hero p{
+.hero p {
     margin-left: 1rem;
     font-family: var(--base-font);
     font-size: 2rem;
@@ -49,8 +49,14 @@
     padding: 1rem;
 }
 
+@media screen and (max-width: 810px) {
+    .hero-link {
+        margin-left: 1rem;
+    }
 
-
-
-
-
+    .hero p {
+        padding: 4rem;
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+}

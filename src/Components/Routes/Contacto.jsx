@@ -1,15 +1,14 @@
-import React from 'react';
-import Formulario from '../Content/Formulario';
-import '../../assets/css/contact.css';
-
+import React from "react";
+import Formulario from "../Content/Formulario";
+import "../../assets/css/contact.css";
 
 const Contacto = () => {
     return (
         <>
             <h1>CONTACTO</h1>
-            <Formulario/>
+            <Formulario />
         </>
-    )
-}
+    );
+};
 
-export default Contacto
+export default Contacto;
