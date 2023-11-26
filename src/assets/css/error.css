@@ -1,0 +1,23 @@
+.error{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 7rem;
+    text-align: center;
+    color: black;
+    margin-top: 8rem;
+    padding: 5rem;
+}
+
+h2{
+    font-size: 3.5rem;
+    text-align: center;
+    color: black;
+    padding: 2rem;
+    
+
+}
