@@ -23,7 +23,9 @@ const Navbar = () => {
             </div>
             <div className={`container_navbar--links ${menu ? "open" : ""}`}>
                 <button onClick={toggleMenu}>
-                    <img src={Menu} alt="menu" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
                 </button>
                 <ul className={`nav-list ${menu ? "show" : ""}`}>
                     <li>

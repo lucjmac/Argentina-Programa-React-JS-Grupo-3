@@ -154,6 +154,7 @@ h1 {
     padding: 2rem 0;
 }
 
+
 .container_footer--redes {
     display: flex;
     align-items: center;
@@ -171,4 +172,12 @@ h1 {
 }
 .copyright {
     margin-top: 1rem;
+}
+
+.about{
+    padding-top: 2rem;
+}
+
+.about-link{
+    text-decoration: underline;
 }
