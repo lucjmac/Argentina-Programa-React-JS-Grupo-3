@@ -7,7 +7,7 @@ function Servicio(props) {
         setContenido(!contenido);
     };
     const comprar = () =>{
-        alert("Gracias por adquirir nuestros servicios")
+        alert("Gracias por adquirir nuestros servicios❗")
     }
     return (
         <>

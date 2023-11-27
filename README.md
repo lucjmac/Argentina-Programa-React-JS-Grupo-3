@@ -1,6 +1,6 @@
 # Breeze Deco Project
 
-![logo](Argentina-Programa-React-Grupo3/src/assets/cactus-icon.png "Logo Project")
+![logo](/src/assets/cactus-icon.png "Logo Project")
 
 * Descripción:<br>
 	*Es un proyecto que representa un sitio web de un emprendimiento comercial dedicado servicios de marketing.*
