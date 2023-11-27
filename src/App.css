@@ -36,11 +36,12 @@ img {
     width: 100%;
 }
 
-h1 {
-    font-size: 3.5rem;
+h4 {
+    font-size: 3rem;
     text-align: center;
     color: white;
-    padding: 5rem;
+    padding: 4rem auto 0 auto;
+    margin-bottom: 1rem;
 }
 
 /* Estilos de la Navbar */
@@ -108,7 +109,15 @@ h1 {
     font-weight: 600;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1060px) {
+    h4 {
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        padding: 2rem auto 0 auto;
+        margin-bottom: 0.5rem;
+    }
+    
     .container_navbar--links button {
         display: block;
         cursor: pointer;

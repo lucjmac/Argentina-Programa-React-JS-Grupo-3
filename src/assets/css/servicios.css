@@ -2,6 +2,14 @@
     margin: 1rem;
 }
 
+h3 {
+    font-size: 5rem;
+    font-family: var(--base-font);
+    text-align: center;
+    color: white;
+    padding: 5rem;
+}
+
 .container_productos--detalle {
     display: block;
 }
@@ -66,6 +74,8 @@
 @media screen and (max-width: 1190px) {
     .card-servicios {
         flex-direction: column;
+        max-width: 60rem;
+        margin: 0 auto;
     }
 
     .card-content {
