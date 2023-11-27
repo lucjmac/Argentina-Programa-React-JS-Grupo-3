@@ -7,6 +7,10 @@
     padding: 2.5rem;
 }
 
+.image-section h2{
+    color: whitesmoke;
+}
+
 .image-container {
     flex-direction: row;
 }
