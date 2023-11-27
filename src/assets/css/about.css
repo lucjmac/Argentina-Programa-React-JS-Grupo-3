@@ -1,0 +1,9 @@
+.about-member{
+    display: flex;
+    padding-top: 3rem;
+}
+
+.about-member img{
+    border-radius: 50%;
+    width: 20vh;
+}
