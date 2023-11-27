@@ -6,6 +6,9 @@ function Servicio(props) {
     const toggleContenido = () => {
         setContenido(!contenido);
     };
+    const comprar = () =>{
+        alert("Gracias por adquirir nuestros servicios")
+    }
     return (
         <>
             <div className="container_Servicios">
@@ -29,6 +32,7 @@ function Servicio(props) {
                     <p>✔️ {props.item1}</p>
                     <p>✔️ {props.item2}</p>
                     <p>✔️ {props.item3}</p>
+                    <button onClick={comprar}>Adquirir!</button>
                 </div>
             </div>
         </>
