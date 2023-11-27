@@ -7,8 +7,8 @@
 
 * Tecnologías utilizadas:<br>
     - Se utilizó el lenguaje de Marcado de Hipertexto **HTML** para estructurar y desplegar la página web y sus contenidos.
-	- Se utilizó el leguaje de programación de **Javascript** y el framework **React** y **Vite**.
-	- Se utilizó **CSS** y el framework **Bootstrap** para darle estilo a los templates que componen el proyecto.
+	- Se utilizó el leguaje de programación de **Javascript** y el framework **React** para la creación de componentes y **Vite**.
+	- Se utilizó **CSS** y se instaló framework **Bootstrap** para darle estilo a los templates que componen el proyecto.
 
     ![logos](https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/168570351/original/fe86a10c5f53958c74f92bb8befe4d0c3b6ee10c/do-html-css-javascript-ajax-reactjs-psd-html-jquery.png)
 
