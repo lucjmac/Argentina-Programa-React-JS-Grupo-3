@@ -1,9 +1,20 @@
-# React + Vite
+# Breeze Deco Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![logo](Argentina-Programa-React-Grupo3/src/assets/cactus-icon.png "Logo Project")
 
-Currently, two official plugins are available:
+* Descripción:<br>
+	*Es un proyecto que representa un sitio web de un emprendimiento comercial dedicado servicios de marketing.*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Argentina-Programa-React-Grupo3
+* Tecnologías utilizadas:<br>
+    - Se utilizó el lenguaje de Marcado de Hipertexto **HTML** para estructurar y desplegar la página web y sus contenidos.
+	- Se utilizó el leguaje de programación de **Javascript** y el framework **React** y **Vite**.
+	- Se utilizó **CSS** y el framework **Bootstrap** para darle estilo a los templates que componen el proyecto.
+
+    ![logos](https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/168570351/original/fe86a10c5f53958c74f92bb8befe4d0c3b6ee10c/do-html-css-javascript-ajax-reactjs-psd-html-jquery.png)
+
+
+* Autores del proyecto:
+	**Maria Jimena Macias**,**Lucas Macias** y **Nicolás Sebastián Capriz**
+
+* Estado del proyecto:
+	**En proceso de desarrollo**. Se espera agregar mayores funcionalidades a futuro.
