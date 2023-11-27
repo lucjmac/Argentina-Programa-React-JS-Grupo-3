@@ -115,6 +115,10 @@ h1 {
         margin-right: 1rem;
     }
 
+    .container_navbar--logo {
+        padding-left: 1rem;
+    }
+
     .container_navbar--links ul {
         display: none;
         cursor: pointer;
