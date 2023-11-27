@@ -6,9 +6,10 @@ const Formulario = () => {
     const [apellido, setApellido] = useState("");
     const [email, setEmail] = useState("");
     const [edad, setEdad] = useState("");
+    const [consulta, setConsulta] = useState("");
     const [errorEnviar, setErrorEnviar] = useState(false);
 
-    const errorMensaje = validacionDatos(nombre, apellido, email, edad);
+    const errorMensaje = validacionDatos(nombre, apellido, email, edad, consulta);
 
     const manejarEnvio = (evento) => {
         evento.preventDefault();
@@ -18,6 +19,7 @@ const Formulario = () => {
             setApellido("");
             setEmail("");
             setEdad("");
+            setConsulta("");
             setErrorEnviar(false);
         } else {
             setErrorEnviar(true);
@@ -71,7 +73,22 @@ const Formulario = () => {
                     value={edad}
                     autoComplete="off"
                     name="edad"
+                    placeholder="Escriba su edad..."
                 />
+            </div>
+            <div className="label-input-container">
+                <label htmlFor="consulta">Consulta: </label>
+                <textarea 
+                name="" 
+                id="" 
+                cols="30" 
+                rows="10"
+                onChange={(evento) => setConsulta(evento.target.value)}
+                value={consulta}
+                autoComplete="off"
+                placeholder="Escriba su consulta..."
+                >
+                </textarea>
             </div>
             <div className="button ">
                 <button type="submit" disabled={!!errorMensaje}>
@@ -82,11 +99,12 @@ const Formulario = () => {
     );
 };
 
-const validacionDatos = (nombre, apellido, email, edad) => {
+const validacionDatos = (nombre, apellido, email, edad, consulta) => {
     if (nombre === "") return "Por favor, ingrese su nombre";
     if (apellido === "") return "Por favor, ingrese su apellido";
     if (!email.includes("@")) return "Por favor, ingrese un mail válido";
     if (edad === "") return "Por favor, ingrese su edad";
+    if (consulta === "") return "Por favor, ingrese su consulta";
     return null;
 };
 
