@@ -10,7 +10,7 @@ function Servicio(props) {
         <>
             <div className="container_Servicios">
                 <div>
-                    <h3>{props.nombre}</h3>
+                    <h5>{props.nombre}</h5>
                     <p>{props.descripcion}</p>
                     <p>
                         A partir de:
