@@ -1,4 +1,4 @@
-# Breeze Deco Project
+# CACTUS Project
 
 ![logo](/src/assets/cactus-icon.png "Logo Project")
 
