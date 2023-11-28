@@ -1,6 +1,6 @@
-# CACTUS Project
+# CACTUS Project 
 
-![logo](/src/assets/cactus-icon.png "Logo Project")
+![logo](/src/assets/cactus-icon.png "Logo Project") ---> Link del proyecto (https://github.com/NSCapriz/Argentina-Programa-React-Grupo3.git)
 
 * Descripción:<br>
 	*Es un proyecto que representa un sitio web de un emprendimiento comercial dedicado servicios de marketing.*
