@@ -6,7 +6,7 @@ import Estretegia from "../../assets/img/estrategia-marketing.jpg";
 const Nosotros = () => {
     return (
         <>
-            <h1>Nosotros</h1>
+            <h1>NOSOTROS</h1>
             <div className="container_nosotros">
                 <div>
                     <h2>¿Quienes somos?</h2>

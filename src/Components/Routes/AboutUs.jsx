@@ -7,9 +7,9 @@ export const AboutUs = () => {
     return (
     <>
         <div>
-            <h1>About Us</h1>
+            <h1>ABOUT US</h1>
             <div className='container-about'>
-                <h2>Grupo 3 - ¿Quienes Somos?</h2>
+                <h2>GRUPO 3 - ¿QUIENES SOMOS?</h2>
                 <div className='about-member'>
                     <div>
                         <h3>Maria Jimena Macias</h3>

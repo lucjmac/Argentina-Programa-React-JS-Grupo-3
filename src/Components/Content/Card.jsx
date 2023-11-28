@@ -25,11 +25,12 @@ const Card = () => {
                                     <p>{contenido.txt}</p>
                                 </div>
                         </div>
-                    ))}
-                </ul>
-            </div>
+                    
+                ))}
+            </ul>
+        </div>
         </>
-    );
+    )
 };
 
 export default Card;
