@@ -4,7 +4,7 @@ import Servicio from "../Content/Servicio";
 const Servicios = () => {
     return (
         <>
-            <h3>SERVICIOS</h3>
+            <h1>SERVICIOS</h1>
             <div className="card-servicios">
                 <div className="card-content">
                     {" "}

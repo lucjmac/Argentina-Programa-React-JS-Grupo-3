@@ -2,8 +2,7 @@ body {
     background: #9dc78c;
 }
 
-h3 {
-    font-size: 5rem;
+h1 {
     font-family: var(--base-font);
     text-align: center;
     color: white;
@@ -56,11 +55,12 @@ input, textarea {
     -o-transition: background 0.3s ease-in-out;
 }
 
-input:focus, textarea:focus {
+input:hover, textarea:hover {
+    border: 0.2rem solid #4b867f;
     outline: none;
 }
-input:hover, textarea:focus {
-    border: 0.2rem solid #4b867f;
+
+input:focus, textarea:focus {
     outline: none;
 }
 

@@ -5,7 +5,7 @@ import "../../assets/css/contact.css";
 const Contacto = () => {
     return (
         <>
-            <h3>CONTACTO</h3>
+            <h1>CONTACTO</h1>
             <Formulario />
         </>
     );
